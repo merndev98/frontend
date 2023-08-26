@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NoteContext from "./noteContext.jsx";
 
 const NoteState = (props) => {
-    const host = "http://localhost:5000"
+    const host = "https://backend-liard-two.vercel.app"
     const notesInitial = []
     const [notes, setNotes] = useState(notesInitial)
 
