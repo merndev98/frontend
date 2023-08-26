@@ -9,7 +9,7 @@ const Notes = () => {
     const navigate = useNavigate();
     const context = useContext(noteContext);
     const { notes, getNotes, editNote } = context;
-    const host = "https://backend-liard-two.vercel.app"
+    const host = "https://backend-render-app.onrender.com"
 
     useEffect(() => {
         if(localStorage.getItem('token')){
